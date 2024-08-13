@@ -87,12 +87,11 @@ export default async function RootLayout({
 }
 ```
 
-## 翻譯取用方法
+## 翻譯取用方法 (./intl/en.json)
 
 ### 扁平式翻譯
 
 ```json
-//intl/en.json
 {
   "title": "Hello world!"
 }
@@ -124,7 +123,6 @@ export default async function HomePage() {
 ### 分層式翻譯(預設推薦)
 
 ```json
-// intl/en.json
 {
   "HomePage": {
     "title": "Hello world!"
